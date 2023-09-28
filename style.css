@@ -1,0 +1,126 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  border: 1px solid black;
+  width: 450px;
+  margin: 0px auto;
+  font-family: sans-serif;
+}
+h1 {
+  font-size: 30px;
+  color: blue;
+  justify-self: flex-start;
+  column-gap: 2px;
+}
+.header {
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+}
+button {
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.button-1 {
+  position: absolute;
+  right: 120px;
+  top: 8px;
+  padding-left: 2px;
+  padding-right: 2px;
+  font-size: 14px;
+}
+.button-2 {
+  position: absolute;
+  right: 20px;
+  top: 8px;
+  padding-left: 2px;
+  padding-right: 2px;
+  font-size: 14px;
+}
+.header-img {
+  border-radius: 50%;
+  background-color: lightgray;
+}
+.main-header1 {
+  display: grid;
+  grid-template-columns: 300px 1fr 1fr 1fr;
+  margin-top: 3px;
+  justify-items: center;
+}
+.main-header2 {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-items: center;
+  border-bottom: 1px solid lightgray;
+}
+.home-icon {
+  border-bottom: 5px solid blue;
+}
+.profile-img {
+  border-radius: 50%;
+}
+.profile-dis {
+  border: 1px solid lightgrey;
+  border-width: 20%;
+  border-radius: 10px;
+  flex: 2;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.personal {
+  display: flex;
+  gap: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 7px solid lightgrey;
+  align-items: center;
+}
+.stories {
+  margin-top: 10px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-bottom: 7px solid lightgrey;
+  padding-bottom: 10px;
+}
+.story-1 {
+  border-radius: 20px;
+}
+.story-2 {
+  border-radius: 20px;
+}
+.story-3 {
+  border-radius: 20px;
+}
+.suggested {
+  margin-top: 10px;
+  display: flex;
+  gap: 7px;
+}
+.profile {
+  border: 2px solid blue;
+  border-radius: 50%;
+}
+.account-name {
+  padding-top: 8px;
+  font-size: smaller;
+  font-family: sans-serif;
+  align-items: center;
+  flex: 2;
+}
+.discription {
+  font-size: 12px;
+  padding-top: 20px;
+  padding-left: 5px;
+}
+.pic-dis {
+  margin-top: 5px;
+}
